@@ -175,6 +175,7 @@
           return values;
         }
       },
+      set(val){},
       slotCount() {
         var slots = this.slots || [];
         var result = 0;
